@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.product-img-container {
+    position: relative;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.vendor, .price, .compare-at-price, .discount {
+    margin: 5px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    display: inline-block; /* Display cards side by side */
+    vertical-align: top; /* Align cards to the top */
+}
+
+.product-img-container {
+    position: relative;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.vendor, .price, .compare-at-price, .discount {
+    margin: 5px 0;
+}
+
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Style for the active tab (background color) */
+.tab.active {
+    background-color: #4CAF50;
+    color: white;
+}
